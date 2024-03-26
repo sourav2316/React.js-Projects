@@ -23,13 +23,14 @@ const Container = styled.div`
   display: flex;
   margin: 0 auto;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   gap: 300px;
 
   .content {
     display: flex;
     flex-direction: column;
     align-items: end;
+
     h1 {
       font-size: 96px;
     }
